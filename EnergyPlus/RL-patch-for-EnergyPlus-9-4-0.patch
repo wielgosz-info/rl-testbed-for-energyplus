@@ -141,15 +141,15 @@ index 000000000..81f3f66e9
 +#include <ObjexxFCL/string.functions.hh>
 +
 +// EnergyPlus Headers
-+#include <CommandLineInterface.hh>
-+#include <ExtCtrl.hh>
-+#include <DataEnvironment.hh>
-+#include <DataGlobals.hh>
-+#include <DataHVACGlobals.hh>
-+#include <DataPrecisionGlobals.hh>
-+#include <General.hh>
-+#include <UtilityRoutines.hh>
-+#include <DisplayRoutines.hh>
++#include <EnergyPlus/CommandLineInterface.hh>
++#include <EnergyPlus/ExtCtrl.hh>
++#include <EnergyPlus/DataEnvironment.hh>
++#include <EnergyPlus/DataGlobals.hh>
++#include <EnergyPlus/DataHVACGlobals.hh>
++#include <EnergyPlus/DataPrecisionGlobals.hh>
++#include <EnergyPlus/General.hh>
++#include <EnergyPlus/UtilityRoutines.hh>
++#include <EnergyPlus/DisplayRoutines.hh>
 +
 +namespace EnergyPlus {
 +
@@ -450,9 +450,9 @@ index 000000000..12990d759
 +#include <ObjexxFCL/Fmath.hh>
 +
 +// EnergyPlus Headers
-+#include <EnergyPlus.hh>
-+#include <DataGlobals.hh>
-+#include <UtilityRoutines.hh>
++#include <EnergyPlus/EnergyPlus.hh>
++#include <EnergyPlus/DataGlobals.hh>
++#include <EnergyPlus/UtilityRoutines.hh>
 +
 +namespace EnergyPlus {
 +
