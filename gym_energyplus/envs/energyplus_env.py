@@ -159,7 +159,7 @@ class EnergyPlusEnv(Env):
 
             # Check for any severe error
             nerr = count_severe_errors(file_err)
-            if nerr != 0:
+            if nerr > 0:
                 print('EnergyPlusEnv: Severe error(s) occurred. Error count: {}'.format(nerr))
                 print('EnergyPlusEnv: Check contents of {}'.format(file_err))
                 #sys.exit(1)
